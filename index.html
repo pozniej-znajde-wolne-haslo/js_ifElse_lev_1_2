@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Quality</title>
+</head>
+
+<body>
+  <h3>Your weather check</h3>
+  <p>To check what the weather is like today, put a number (0-10) into the form below:</p>
+
+  <form onsubmit="return false">
+    <input type="number" name="number" id="number">
+    <button onclick="weather()">Check</button>
+  </form>
+
+  <p>
+      The weather today is:
+      <span id="weatherToday"></span>
+  </p>
+
+<script src="./assets/js/main.js"></script> 
+</body>
+</html>
